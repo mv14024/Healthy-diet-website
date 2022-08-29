@@ -49,4 +49,4 @@ Napomene:
   Jedan od tih delova, što bih posebno napomenula asistentu, vezan je za bazu, tačnije za 
   tabelu 'recept'. Postoji kolona 'opis' u pomenutoj tabeli. Deluje kao da je ona višak, zato
   što nigde nije iskorišćena u projektu. Ta kolona je ubačena kako bi korisik mogao da odabere
-  koja će jela biti izlistana (slana ili slatka). To bih uradila preko jQueryja (slideDown()).
+  koja će jela biti izlistana (slana ili slatka). To bih uradila preko jQueryja (slideDown()). 
