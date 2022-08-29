@@ -1,0 +1,136 @@
+body {
+    background-image: url("pozadina1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.greska{
+
+    color: rgb(243, 221, 54);
+}
+
+#naslov {
+    color: rgb(243, 221, 54)D;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#levo {
+    margin-top: 20vh;
+}
+
+#desno {
+   
+    height: 100vh;
+}
+
+#prijava {
+    margin-top: 20vh;
+}
+
+#kor_ime, #lozinka{
+    
+    display: inline-block;
+    margin: 10px;
+}
+
+#prijaviSe{
+   
+    margin: 10px;
+    background-color: rgb(243, 221, 54);
+    
+}
+
+#gotovo{
+   
+ 
+    background-color: rgb(243, 221, 54);
+}
+
+
+#registracija{
+
+    margin-top: 10vh;
+    margin-left: 10px;
+}
+
+
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(243, 221, 54);
+}
+
+span{
+    color: rgb(243, 221, 54);
+}
+
+#registracija p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(243, 221, 54);
+}
+
+@media screen and (max-width:768px){
+    
+#naslov {
+    font-size: 40px;
+    margin: auto;
+}
+
+#levo {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#desno {
+    background-color: #FFE31D;;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+#registracija p{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+#prijava {
+    margin-top: 0px;
+}
+
+#forma1{
+    margin-top: 10px;
+}
+
+#forma2{
+    margin-top: 5px;
+}
+
+#registracija{
+
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+#prijaviSe{
+
+    margin: 10px;
+}
+
+span{
+    font-size: 14px;
+    color: black;
+}
+input{
+    height: 34px;
+}
+
+}

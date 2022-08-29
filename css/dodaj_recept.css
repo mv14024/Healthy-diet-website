@@ -1,0 +1,88 @@
+#container{
+    background-color: rgb(241, 218, 44);
+    margin-top: 5vh;
+    margin-right: 5%; 
+    margin-left: 5%;
+    padding-bottom: 5vh;
+    margin-bottom: 5vh;
+}
+
+#naslov{
+    font-size: 42px;
+    margin-top: 5vh;
+    margin-bottom: 5vh; 
+    text-align: center;
+}
+
+#tekst{
+	font-size: 20px;
+	margin-left: 2%;
+}
+
+#tekst:hover{
+	font-size: 22px;
+}
+
+label{
+    font-size: 22px;
+}
+
+form{
+    margin-left: 12%;
+    margin-top: 5vh;
+}
+
+span{
+    font-size: 14px;
+}
+
+.form-control{
+    width: 200px;
+}
+
+.dugmici{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:768px){
+
+    #naslov{
+        font-size: 25px;
+    }
+    #tekst{
+        font-size: 14px;
+        margin-left: 2%;
+    }
+
+    #tekst:hover{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:600px){
+
+    #naslov{
+        font-size: 25px;
+    }
+
+    label{
+        font-size: 18px;
+    }
+
+
+    #tekst{
+        font-size: 14px;
+    }
+
+    #tekst:hover{
+        font-size: 14px;
+    }
+
+    form{
+        margin-left: 5%;
+        margin-top: 5vh;
+    }
+
+}
